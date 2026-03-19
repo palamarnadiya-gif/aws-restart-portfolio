@@ -1,4 +1,4 @@
-<h1 align="center">🖼️ Elegant Frame Gallery - Static Website on AWS</h1>
+<h1 align="center"> Elegant Frame Gallery - Static Website on AWS</h1>
 
 <p align="center">
   <strong>A cloud‑hosted, fast, and scalable static website for a Swiss photo frame company</strong>
@@ -9,6 +9,7 @@
   <img src="https://img.shields.io/badge/HTML-CSS-blue?logo=html5" alt="HTML/CSS">
   <img src="https://img.shields.io/badge/status-live-success" alt="Project Status">
 </p>
+<img width="2604" height="1756" alt="group-picture" src="https://github.com/user-attachments/assets/d3db29aa-ff29-462c-af8d-c3cee24adca3" />
 
 ---
 
