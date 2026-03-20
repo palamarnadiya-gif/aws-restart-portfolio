@@ -91,7 +91,7 @@ We built and deployed a **static website** for Elegant Frame Gallery using AWS. 
 
 1. **Create website files** – `index.html`, CSS, and image assets.
    
-   <img width="360" height="762" alt="screencapture-Users-palam-aws-project" src="https://github.com/user-attachments/assets/8ddf2d92-aaa3-49ee-91e3-1a3f5924ae0b" />
+   <img width="540" height="1143" alt="screencapture-Users-palam-aws-project" src="https://github.com/user-attachments/assets/8ddf2d92-aaa3-49ee-91e3-1a3f5924ae0b" />
 
 2. **Log in to AWS Console** and open Amazon S3.
    
@@ -117,7 +117,7 @@ We built and deployed a **static website** for Elegant Frame Gallery using AWS. 
    <img width="475" height="237" alt="BucketPolicyImage" src="https://github.com/user-attachments/assets/315be0b7-7c35-401b-b552-bf2fb87aab5b" />
 
 7. **Test the website endpoint** – access via the S3 website URL.
-    <img width="476" height="243" alt="FinalWebsite1" src="https://github.com/user-attachments/assets/cd62ef00-f096-4ead-b161-77c638cf467a" />
+    <img width="952" height="486" alt="FinalWebsite1" src="https://github.com/user-attachments/assets/cd62ef00-f096-4ead-b161-77c638cf467a" />
 
 13. **Verify** that the site loads correctly.
 
