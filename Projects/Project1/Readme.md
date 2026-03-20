@@ -93,30 +93,30 @@ We built and deployed a **static website** for Elegant Frame Gallery using AWS. 
    
    <img width="360" height="762" alt="screencapture-Users-palam-aws-project" src="https://github.com/user-attachments/assets/8ddf2d92-aaa3-49ee-91e3-1a3f5924ae0b" />
 
-3. **Log in to AWS Console** and open Amazon S3.
+2. **Log in to AWS Console** and open Amazon S3.
    
    <img width="448" height="233" alt="ProjectArchitectureImage" src="https://github.com/user-attachments/assets/da0c7c48-0792-4fab-b933-9c840b341304" />
 
-5. **Create an S3 bucket**  
+3. **Create an S3 bucket**  
    - Unique bucket name  
    - Choose region  
    - **Disable Block Public Access** (for static hosting)
      <img width="470" height="181" alt="image" src="https://github.com/user-attachments/assets/6601b6b8-247f-4a42-9130-e8b7c4e74ff8" />
 
-6. **Enable static website hosting** in bucket properties.
-
-   <img width="477" height="235" alt="Screenshot3 2026-03-18 104553" src="https://github.com/user-attachments/assets/052a07d1-a764-42cf-a68c-c7dab986d248" />
-
-8. **Upload all website files** (HTML, CSS, images) to the bucket.
+4.**Upload all website files** (HTML, CSS, images) to the bucket.
    <img width="472" height="246" alt="UploadFilesImages" src="https://github.com/user-attachments/assets/1e7248d3-3eaf-4e8b-bbcc-2dc867b9e2ff" />
 
    <img width="474" height="239" alt="SucceededUpload" src="https://github.com/user-attachments/assets/1a5d723e-fbd6-4bb2-a1d9-f77cdd3ac726" />
+   
+5. **Enable static website hosting** in bucket properties.
+
+   <img width="477" height="235" alt="Screenshot3 2026-03-18 104553" src="https://github.com/user-attachments/assets/052a07d1-a764-42cf-a68c-c7dab986d248" />
 
 
-10. **Add a bucket policy** to make content publicly readable.
+6. **Add a bucket policy** to make content publicly readable.
    <img width="475" height="237" alt="BucketPolicyImage" src="https://github.com/user-attachments/assets/315be0b7-7c35-401b-b552-bf2fb87aab5b" />
 
-11. **Test the website endpoint** – access via the S3 website URL.
+7. **Test the website endpoint** – access via the S3 website URL.
     <img width="476" height="243" alt="FinalWebsite1" src="https://github.com/user-attachments/assets/cd62ef00-f096-4ead-b161-77c638cf467a" />
 
 13. **Verify** that the site loads correctly.
