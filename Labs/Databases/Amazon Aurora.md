@@ -41,10 +41,11 @@ Configured and launched an Aurora MySQL-compatible cluster with defined credenti
 </p>
 
 <div class="grid">
-<img src="your-image-1">
-<img src="your-image-2">
-<img src="your-image-3">
-</div>
+<img width="940" height="374" alt="image" src="https://github.com/user-attachments/assets/ccd6e6d9-1b31-4701-85ea-57c51296b2cc" />
+
+<img width="940" height="416" alt="image" src="https://github.com/user-attachments/assets/2e719329-94c1-4bd0-8bb9-7aca0fe4850b" />
+
+
 
 <h3>2. EC2 Connection</h3>
 <p>
@@ -52,7 +53,8 @@ Accessed the EC2 instance using Session Manager to avoid SSH key management.
 </p>
 
 <div class="grid">
-<img src="your-image-4">
+<img width="940" height="379" alt="image" src="https://github.com/user-attachments/assets/851f86b2-8e87-42c3-b7de-553196640d97" />
+
 <img src="your-image-5">
 </div>
 
@@ -67,8 +69,10 @@ mysql -u admin --password='***' -h &lt;endpoint&gt;
 </div>
 
 <div class="grid">
-<img src="your-image-6">
-<img src="your-image-7">
+<img width="940" height="461" alt="image" src="https://github.com/user-attachments/assets/d49c605b-32c7-4b73-9e7c-de15d6baf7c4" />
+  <img width="940" height="325" alt="image" src="https://github.com/user-attachments/assets/5b5de899-a2ea-4045-aa54-481ad20fc6c4" />
+
+<img width="940" height="399" alt="image" src="https://github.com/user-attachments/assets/3832b58b-d975-45c5-bc84-9600655fbc24" />
 </div>
 
 <h3>4. Database Operations</h3>
@@ -81,11 +85,17 @@ SHOW DATABASES;<br>
 USE world;<br>
 SELECT * FROM country WHERE GNP > 35000;
 </div>
+<img width="940" height="492" alt="image" src="https://github.com/user-attachments/assets/f8b07eef-41d2-4f8b-8d01-767627a2843f" />
+
+<img width="377" height="297" alt="image" src="https://github.com/user-attachments/assets/63ed2d25-4e06-42d2-b4c6-075154370058" />
+
+<img width="940" height="506" alt="image" src="https://github.com/user-attachments/assets/07937bed-8118-4ed9-b8d6-0e48454961d9" />
+<img width="940" height="478" alt="image" src="https://github.com/user-attachments/assets/39cc68f8-e6bf-46fe-8bb7-b8ca6a27a3c9" />
+<img width="940" height="287" alt="image" src="https://github.com/user-attachments/assets/bffcbfb8-5df4-4269-9e98-61161820a78f" />
 
 <div class="grid">
-<img src="your-image-8">
-<img src="your-image-9">
-<img src="your-image-10">
+
+
 </div>
 
 </div>
