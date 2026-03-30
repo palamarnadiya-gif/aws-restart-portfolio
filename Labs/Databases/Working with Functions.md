@@ -25,8 +25,10 @@ The lab environment consists of a Command Host EC2 instance with MySQL client in
 </p>
 
 <div class="grid">
-<img src="screenshots/command_host.png" alt="Command Host Terminal">
-<img src="screenshots/world_db_tables.png" alt="World Database Tables">
+<img width="470" height="297" alt="image" src="https://github.com/user-attachments/assets/02d8dc1f-dff9-4f48-b55a-550e9d2fac63" />
+
+<img width="470" height="284" alt="image" src="https://github.com/user-attachments/assets/7d7f6bee-f302-4078-8191-5b4c57f88ece" />
+
 </div>
 </div>
 
@@ -44,8 +46,12 @@ mysql -u root --password='re:St@rt!9'
 </div>
 
 <div class="grid">
-<img src="screenshots/session_manager.png" alt="Session Manager Connection">
-<img src="screenshots/mysql_login.png" alt="MySQL Login">
+<img width="940" height="467" alt="image" src="https://github.com/user-attachments/assets/8912d80c-b6d5-43fc-bd2a-750d51c772c7" />
+
+<img width="940" height="273" alt="image" src="https://github.com/user-attachments/assets/c6abb4c6-a2fc-40e9-87d5-4093441623fd" />
+<img width="940" height="428" alt="image" src="https://github.com/user-attachments/assets/2cf70cb8-1479-473f-9bde-c06dbe0ed41c" />
+
+
 </div>
 
 <h3>2. Viewing Database and Table Schema</h3>
@@ -58,8 +64,10 @@ SELECT * FROM country;
 </div>
 
 <div class="grid">
-<img src="screenshots/show_databases.png" alt="Show Databases">
-<img src="screenshots/country_table.png" alt="Country Table Schema">
+<img width="940" height="363" alt="image" src="https://github.com/user-attachments/assets/ea36a082-026f-4303-ad7e-21243e7a953a" />
+
+<img width="940" height="434" alt="image" src="https://github.com/user-attachments/assets/aa2e6696-67b0-4510-b318-b9504e93c661" />
+
 </div>
 
 <h3>3. Using Aggregate Functions</h3>
