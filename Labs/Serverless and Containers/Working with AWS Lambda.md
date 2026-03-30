@@ -77,7 +77,7 @@ Implemented a serverless reporting solution using AWS services. The system gener
 <img width="940" height="390" alt="image" src="https://github.com/user-attachments/assets/b631e3e5-d153-4d3a-bca0-5a5cbe686f3f" />
 
 
-<h3>4. Function Testing & Debugging</h3>
+<h3>3. Function Testing & Debugging</h3>
 <p>Tested function execution, identified a timeout issue, and resolved it by updating the security group to allow port 3306.</p>
 
 <img width="940" height="422" alt="image" src="https://github.com/user-attachments/assets/015c4da2-b3ed-4371-a3dd-b3e709b37b5a" />
@@ -103,7 +103,7 @@ Implemented a serverless reporting solution using AWS services. The system gener
 <img width="940" height="394" alt="image" src="https://github.com/user-attachments/assets/87747132-4a10-4b77-b743-188f3ea7abaf" />
 
 
-<h2>Task 3: Testing and Troubleshooting the Data Extractor</h2>
+<h2>Task 4: Testing and Troubleshooting the Data Extractor</h2>
 <ul>
   <li><strong>Initial Test:</strong> Function timed out due to database connection port (3306) not open</li>
   <li><strong>Fix:</strong> Updated security group inbound rules for database access</li>
@@ -130,7 +130,7 @@ Implemented a serverless reporting solution using AWS services. The system gener
 <img width="940" height="233" alt="image" src="https://github.com/user-attachments/assets/1b49f44e-b110-40a6-89ca-ab252f06e1aa" />
 
 
-<h2>Task 4: Configuring Notifications</h2>
+<h2>Task 5: Configuring Notifications</h2>
 <ul>
   <li>Created SNS topic <strong>salesAnalysisReportTopic</strong> with display name <strong>SARTopic</strong></li>
   <li>Subscribed an email endpoint and confirmed subscription</li>
@@ -162,7 +162,7 @@ Implemented a serverless reporting solution using AWS services. The system gener
 <img width="940" height="389" alt="image" src="https://github.com/user-attachments/assets/9ceb1f8f-4d81-4d8f-a309-816648a1435c" />
 <img width="940" height="355" alt="image" src="https://github.com/user-attachments/assets/0f2d012a-12ad-4df2-b9a3-c71cb18cbb1f" />
 <img width="940" height="280" alt="image" src="https://github.com/user-attachments/assets/ad1cb638-dcd1-4f20-8c3a-7f5aa41a8ece" />
-<h3>8. Scheduling Automation</h3>
+<h3>6. Scheduling Automation</h3>
 <p>Configured a scheduled trigger (cron) to run reports automatically Monday through Saturday.</p>
 
 <img width="940" height="713" alt="image" src="https://github.com/user-attachments/assets/0f8eb27f-e10f-42c0-8b47-e11ed8d46390" />
