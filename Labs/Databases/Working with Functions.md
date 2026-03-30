@@ -49,7 +49,7 @@ mysql -u root --password='re:St@rt!9'
 <img width="940" height="467" alt="image" src="https://github.com/user-attachments/assets/8912d80c-b6d5-43fc-bd2a-750d51c772c7" />
 
 <img width="940" height="273" alt="image" src="https://github.com/user-attachments/assets/c6abb4c6-a2fc-40e9-87d5-4093441623fd" />
-<img width="940" height="428" alt="image" src="https://github.com/user-attachments/assets/2cf70cb8-1479-473f-9bde-c06dbe0ed41c" />
+
 
 
 </div>
@@ -62,7 +62,7 @@ SHOW DATABASES;<br>
 USE world;<br>
 SELECT * FROM country;
 </div>
-
+<img width="940" height="428" alt="image" src="https://github.com/user-attachments/assets/2cf70cb8-1479-473f-9bde-c06dbe0ed41c" />
 <div class="grid">
 <img width="940" height="363" alt="image" src="https://github.com/user-attachments/assets/ea36a082-026f-4303-ad7e-21243e7a953a" />
 
@@ -76,10 +76,11 @@ SELECT * FROM country;
 <div class="code">
 SELECT SUM(Population), AVG(Population), MAX(Population), MIN(Population), COUNT(Population) FROM country;
 </div>
+<img width="940" height="434" alt="image" src="https://github.com/user-attachments/assets/ca8c1209-5ce3-44e7-b4d9-b4b4195c42c2" />
 
 <div class="grid">
-<img src="screenshots/aggregate_functions.png" alt="Aggregate Functions Output">
-</div>
+
+
 
 <h3>4. Splitting Strings with SUBSTRING_INDEX()</h3>
 <p>Used SUBSTRING_INDEX() to split region names and filter countries based on the first word.</p>
@@ -90,7 +91,8 @@ SELECT Name, Region FROM country WHERE SUBSTRING_INDEX(Region, " ", 1) = "Southe
 </div>
 
 <div class="grid">
-<img src="screenshots/substring_index.png" alt="Substring Index Example">
+<img width="940" height="419" alt="image" src="https://github.com/user-attachments/assets/efae7e45-a7c9-466d-a139-c603adbc5dea" />
+
 </div>
 
 <h3>5. Using LENGTH() and TRIM()</h3>
@@ -102,7 +104,10 @@ SELECT DISTINCT(Region) FROM country WHERE LENGTH(TRIM(Region)) &lt; 10;
 </div>
 
 <div class="grid">
-<img src="screenshots/length_trim.png" alt="Length and Trim Functions">
+<img width="940" height="671" alt="image" src="https://github.com/user-attachments/assets/68f48ce9-32ab-470f-ba5c-cf4ae4173e40" />
+<img width="940" height="204" alt="image" src="https://github.com/user-attachments/assets/dce44fae-a47f-4635-9956-a552950b4acb" />
+
+
 </div>
 
 <h3>6. Challenge: Splitting Multi-Part Regions</h3>
@@ -117,7 +122,8 @@ WHERE Region = "Micronesia/Caribbean";
 </div>
 
 <div class="grid">
-<img src="screenshots/micronesia_caribbean.png" alt="Split Multi-Part Region">
+<img width="940" height="241" alt="image" src="https://github.com/user-attachments/assets/dddbf88a-3fa3-4798-a386-4589e8069b6e" />
+
 </div>
 
 </div>
