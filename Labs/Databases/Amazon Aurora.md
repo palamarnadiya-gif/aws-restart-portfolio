@@ -25,11 +25,6 @@ The project focused on secure configuration, connectivity, and data operations i
 Aurora was deployed in private subnets, while EC2 acted as a client within the same VPC. Security groups ensured controlled access between components.
 </p>
 
-<div class="grid">
-<img src="your-architecture-1">
-<img src="your-architecture-2">
-</div>
-</div>
 
 <!-- Implementation -->
 <div class="card">
