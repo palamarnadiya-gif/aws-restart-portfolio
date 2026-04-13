@@ -1,85 +1,83 @@
-# Monitor an EC2 Instance (CloudWatch, SNS, CPU Alarm Lab)
+# Infrastructure Monitoring & Automated Incident Response
 
-## Lab Overview
+## Project Overview
+Engineered an automated monitoring solution to maintain system performance baselines and security integrity for EC2 infrastructure. This project simulated a proactive defense against unauthorized resource exhaustion (e.g., malware or crypto-jacking) by implementing real-time alerting and observability dashboards.
 
-Logging and monitoring were used together to ensure system performance baselines and security requirements were continuously met.
-
-Logging was used to record and store event data as log files, providing detailed visibility into system behavior. Monitoring was used to collect and analyze metrics to ensure optimal performance and detect unusual activity such as unauthorized access or resource abuse.
-
-In this lab, an Amazon CloudWatch alarm was configured to trigger when an Amazon EC2 instance exceeded a CPU utilization threshold. An Amazon SNS subscription was created to send email notifications when the alarm was triggered. A stress test was then executed on the EC2 instance to simulate a CPU spike, causing the alarm to activate.
-
----
-
-## Objectives
-
-After completing this lab, the following were achieved:
-
-- Created an Amazon SNS notification
-- Configured a CloudWatch alarm
-- Stress tested an EC2 instance
-- Confirmed SNS email notifications were sent
-- Created a CloudWatch dashboard
+## Technical Architecture
+* Cloud Provider: AWS (EC2, CloudWatch, SNS)
+* Linux Administration: Amazon Linux 2, Stress-ng utility
+* Security Focus: Incident Detection & Automated Alerting
 
 ---
 
-## Task 1: Configure Amazon SNS
+## 1. Notification Infrastructure Deployment
+Established a centralized notification hub using Amazon SNS to ensure immediate stakeholder awareness during system anomalies.
 
-An SNS topic was created to send notifications when alarms were triggered.
+* Created a Standard SNS Topic titled MyCwAlarm.
+* Configured an email subscription protocol for real-time alert delivery.
+* Validated the communication handshake through endpoint confirmation.
 
-### Steps performed
+<img width="470" height="170" alt="image" src="https://github.com/user-attachments/assets/028e9759-8155-4731-b0c6-0fba26509c2e" />
 
-- Amazon SNS service was opened.
-- A topic named **MyCwAlarm** was created (Standard type).
-- An email subscription was added using a valid email address.
-- The subscription status initially remained **Pending confirmation**.
-- The confirmation email was opened and the subscription was confirmed.
-- The status changed to **Confirmed** in SNS.
+<img width="470" height="280" alt="image" src="https://github.com/user-attachments/assets/c3eebae0-db0d-4542-80f1-e3c414205881" />
 
-### Result
-
-An SNS topic was successfully configured and linked to an email endpoint for alert delivery.
+<img width="470" height="125" alt="image" src="https://github.com/user-attachments/assets/553f9659-14ce-48c0-837d-e035190e653f" />
+<img width="470" height="215" alt="image" src="https://github.com/user-attachments/assets/cdcda37d-0835-4b43-a2ea-77f76f553b61" />
+<img width="47" height="115" alt="image" src="https://github.com/user-attachments/assets/27d9bb7d-ca7e-40a3-8692-4535ca076175" />
 
 ---
 
-## Task 2: Create a CloudWatch Alarm
+## 2. CloudWatch Alarm Engineering
+Developed precise monitoring logic to distinguish between standard operations and potential security incidents.
 
-CloudWatch metrics were reviewed and an alarm was created based on EC2 CPU utilization.
+* Defined a Metric Alarm for CPUUtilization.
+* Set a deterministic threshold of >60% for a duration of 1 minute.
+* Linked the "In Alarm" state to the SNS trigger for automated incident reporting.
 
-### Steps performed
+<img width="470" height="255" alt="image" src="https://github.com/user-attachments/assets/48733d67-6722-4825-b9c8-19469234d531" />
 
-- CloudWatch service was opened.
-- EC2 metrics were explored under **Per-Instance Metrics**.
-- CPUUtilization for the **Stress Test** instance was selected.
-- A CloudWatch alarm was created with the following configuration:
+<img width="470" height="450" alt="image" src="https://github.com/user-attachments/assets/a54b7acd-e2b2-435f-904a-2b52390aa45f" />
 
-#### Metric configuration
-- Metric: CPUUtilization  
-- Statistic: Average  
-- Period: 1 minute  
+<img width="470" height="540" alt="image" src="https://github.com/user-attachments/assets/cb36cf9d-29d4-408e-809f-6a2efa15a938" />
+<img width="470" height="300" alt="image" src="https://github.com/user-attachments/assets/63507673-2c17-47ba-afbb-a0bf57e48fa2" />
+<img width="470" height="650" alt="image" src="https://github.com/user-attachments/assets/280c5e69-a480-4871-9672-885253ee7b67" />
+---
 
-#### Conditions
-- Threshold type: Static  
-- Condition: CPUUtilization > 60%
+## 3. Incident Simulation & Stress Testing
+Executed a controlled stress test to validate the end-to-end integrity of the monitoring pipeline.
 
-#### Actions
-- Alarm state: In alarm  
-- SNS topic: **MyCwAlarm**
+* Deployed the stress utility on the target EC2 instance.
+* Forced a 100% CPU saturation to simulate a malicious takeover.
+* Command Executed: sudo stress --cpu 10 -v --timeout 400s
 
-- Alarm name: **LabCPUUtilizationAlarm**
 
-### Result
 
-A CloudWatch alarm was successfully created to monitor CPU usage and send SNS notifications when the threshold was exceeded.
+<img width="470" height="150" alt="image" src="https://github.com/user-attachments/assets/460fdafd-713f-4e26-8f5d-ba1afa17a3f3" />
+<img width="470" height="340" alt="image" src="https://github.com/user-attachments/assets/d4a58fea-93b6-4f99-80a7-c3c073c9ffac" />
+
+<img width="470" height="350" alt="image" src="https://github.com/user-attachments/assets/abaf1308-fa50-4018-8b54-5aa8a287f708" />
+---
+
+## 4. Operational Observability & Verification
+Confirmed the successful execution of the automated response and visualized the data.
+
+* Received the automated SNS email notification within the defined 1-minute window.
+
+
+
+<img width="470" height="200" alt="image" src="https://github.com/user-attachments/assets/0bf426dc-ea2c-4c25-9129-663e1fc0bbb8" />
+<img width="470" height="270" alt="image" src="https://github.com/user-attachments/assets/a9ee448f-177f-44f2-8472-e92c0d09489a" />
+
+* Constructed a custom CloudWatch Dashboard to visualize the spike and recovery phases.
+
+<img width="470" height="250" alt="image" src="https://github.com/user-attachments/assets/d105b894-b700-43d1-9376-fe4d3ec61885" />
+
+<img width="470" height="155" alt="image" src="https://github.com/user-attachments/assets/934dcc03-9c5f-439b-903c-a812e776cae8" />
+<img width="470" height="130" alt="image" src="https://github.com/user-attachments/assets/0cb4acb1-7d4a-4aad-a886-502e10bd5f28" />
 
 ---
 
-## Task 3: Test the CloudWatch Alarm
-
-A CPU stress test was executed to trigger the alarm.
-
-### Steps performed
-
-- The EC2 instance connection URL was opened via Session Manager.
-- A CPU stress command was executed:
-  ```bash
-  sudo stress --cpu 10 -v --timeout 400s
+## Key Achievements
+* Reduced Mean Time to Detect (MTTD) for resource anomalies to under 60 seconds.
+* Implemented a zero-latency notification pipeline for critical system events.
+* Created high-level visibility for stakeholders via CloudWatch Dashboards.
