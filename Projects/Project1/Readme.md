@@ -105,6 +105,7 @@ We built and deployed a **static website** for Elegant Frame Gallery using AWS. 
      <img width="470" height="181" alt="image" src="https://github.com/user-attachments/assets/6601b6b8-247f-4a42-9130-e8b7c4e74ff8" />
 
 4.**Upload all website files** (HTML, CSS, images) to the bucket.
+
    <img width="472" height="246" alt="UploadFilesImages" src="https://github.com/user-attachments/assets/1e7248d3-3eaf-4e8b-bbcc-2dc867b9e2ff" />
 
    <img width="474" height="239" alt="SucceededUpload" src="https://github.com/user-attachments/assets/1a5d723e-fbd6-4bb2-a1d9-f77cdd3ac726" />
@@ -115,9 +116,10 @@ We built and deployed a **static website** for Elegant Frame Gallery using AWS. 
 
 
 6. **Add a bucket policy** to make content publicly readable.
+   
    <img width="475" height="237" alt="BucketPolicyImage" src="https://github.com/user-attachments/assets/315be0b7-7c35-401b-b552-bf2fb87aab5b" />
 
-7. **Test the website endpoint** – access via the S3 website URL.
+8. **Test the website endpoint** – access via the S3 website URL.
     <img width="952" height="486" alt="FinalWebsite1" src="https://github.com/user-attachments/assets/cd62ef00-f096-4ead-b161-77c638cf467a" />
 
 13. **Verify** that the site loads correctly.
