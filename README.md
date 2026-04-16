@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AWS re/Start Cloud Computing Journey</title>
-</head>
-<body>
-
 <h1> AWS re/Start Cloud Computing Journey</h1>
 
 <h2> About Me</h2>
@@ -39,7 +30,7 @@
 
 <hr>
 
-<h2>🛠 Technical Skills I Am Developing</h2>
+<h2> Technical Skills I Am Developing</h2>
 
 <h3>Cloud Computing</h3>
 <ul>
