@@ -1,137 +1,116 @@
-<h1> AWS re/Start Cloud Computing Journey</h1>
+# Nadia Palamar| Cloud Business & Solution Consultant
 
-<h2> About Me</h2>
-<p>Hello! My name is <strong>Nadiya</strong>. I am currently participating in the <strong>AWS re/Start 12-week cloud computing training program</strong>, developed by <strong>Amazon Web Services</strong>.</p>
-<p>This intensive program prepares participants for entry-level <strong>Cloud Support, Cloud Operations, and IT roles</strong> by combining:</p>
-<ul>
-  <li>Cloud computing fundamentals</li>
-  <li>Hands-on AWS labs</li>
-  <li>Linux and networking practice</li>
-  <li>Security best practices</li>
-  <li>Professional and career development</li>
-</ul>
-<p>My goal is to start my career in <strong>cloud computing</strong> and continue developing expertise in <strong>AWS infrastructure and cloud solutions</strong>.</p>
+## Profile
 
-<hr>
+I am a business and technology professional with 20+ years of experience in B2B sales leadership, marketing, brand management, and entrepreneurship. I hold a Master’s degree in Business Informatics (Wirtschaftsinformatik), combining business processes, data, and information systems.
 
-<h2> What I Learn Every Day</h2>
-<p>During the program I follow a structured learning routine that includes both <strong>theoretical learning and practical labs</strong>.</p>
+I am currently transitioning into cloud and digital solution roles, focusing on the intersection of business needs and cloud technology. My strength lies in translating technical capabilities into business value and customer outcomes.
 
-<h3>Daily Activities</h3>
-<ul>
-  <li>Instructor-led cloud computing lessons</li>
-  <li>Hands-on labs using AWS services</li>
-  <li>Technical troubleshooting exercises</li>
-  <li>Group collaboration and problem solving</li>
-  <li>Knowledge checks and quizzes</li>
-  <li>Documentation of lab results and solutions</li>
-</ul>
-<p>This approach helps me build both <strong>technical knowledge and real-world problem-solving skills</strong>.</p>
+---
 
-<hr>
+## AWS re/Start Program
 
-<h2> Technical Skills I Am Developing</h2>
+Successfully completed a 12-week AWS re/Start program, building solid theoretical understanding and practical skills in cloud computing.
 
-<h3>Cloud Computing</h3>
-<ul>
-  <li>Cloud architecture basics</li>
-  <li>High availability and scalability concepts</li>
-  <li>Infrastructure design principles</li>
-</ul>
+During the program, I gained hands-on and foundational knowledge across core AWS cloud domains:
+### AWS Cloud Fundamentals
+- Core AWS services: EC2, S3, IAM, Lambda, CloudWatch, RDS, Route 53  
+- Cloud architecture principles and design thinking  
+- High availability, scalability, cost optimization, and security best practices  
 
-<h3>AWS Services</h3>
-<p>Hands-on experience with core services such as:</p>
-<ul>
-  <li><strong>EC2</strong> – launching and managing virtual machines</li>
-  <li><strong>S3</strong> – cloud storage configuration</li>
-  <li><strong>IAM</strong> – identity and access management</li>
-  <li><strong>VPC</strong> – networking and cloud infrastructure</li>
-  <li><strong>CloudWatch</strong> – monitoring and logging</li>
-</ul>
+### Storage and Archiving
+- Amazon S3 storage classes and lifecycle management  
+- Backup, retention strategies, and data durability concepts  
 
-<h3>Linux</h3>
-<ul>
-  <li>Command line navigation</li>
-  <li>File system management</li>
-  <li>User and permission management</li>
-  <li>Basic system administration</li>
-</ul>
+### Compute, Scaling & Name Resolution
+- EC2 instances and compute fundamentals  
+- Auto Scaling Groups and load balancing  
+- DNS concepts using Route 53  
 
-<h3>Networking</h3>
-<ul>
-  <li>IP addressing</li>
-  <li>DNS</li>
-  <li>Subnets</li>
-  <li>Network troubleshooting fundamentals</li>
-</ul>
+### Serverless & Containers
+- AWS Lambda and event-driven architecture  
+- Introduction to container-based concepts  
 
-<h3>Security</h3>
-<ul>
-  <li>Identity and access control</li>
-  <li>Cloud security best practices</li>
-  <li>Shared responsibility model</li>
-  <li>Data protection principles</li>
-</ul>
+### AWS Database Services
+- Overview of RDS and DynamoDB  
+- Basic data modeling and scalability considerations  
 
-<hr>
+### AWS Networking Services
+- VPC architecture, subnets, and routing  
+- Security Groups and network access control  
+- OSI model and TCP/IP fundamentals  
 
-<h2>  Hands-On Cloud Practice</h2>
-<p>Each week I work on practical exercises such as:</p>
-<ul>
-  <li>Launching and configuring <strong>AWS EC2 instances</strong></li>
-  <li>Creating secure <strong>IAM roles and policies</strong></li>
-  <li>Uploading and managing data in <strong>S3 buckets</strong></li>
-  <li>Designing <strong>virtual networks (VPC)</strong></li>
-  <li>Monitoring infrastructure using <strong>CloudWatch</strong></li>
-  <li>Troubleshooting configuration issues</li>
-</ul>
-<p>These labs simulate <strong>real cloud administration tasks</strong>.</p>
+### Monitoring & Security
+- AWS CloudWatch monitoring and logging  
+- IAM roles, policies, and access management  
+- Cloud security principles and best practices  
 
-<hr>
+### Resource Management & Optimization
+- Cost awareness and resource optimization  
+- Monitoring usage and improving efficiency  
 
-<h2>  Current Focus</h2>
-<p>I am currently strengthening my skills in:</p>
-<ul>
-  <li>AWS core services</li>
-  <li>Linux administration</li>
-  <li>Cloud security</li>
-  <li>Infrastructure troubleshooting</li>
-  <li>Cloud architecture fundamentals</li>
-</ul>
+### Automation & Deployment Concepts
+- Introduction to automation and repeatable deployments  
+- Basic scripting and infrastructure concepts  
 
-<hr>
+### AWS Machine Learning and Generative AI (Introduction)
+- Overview of AWS AI/ML services  
+- Business use cases for AI in cloud environments  
 
-<h2>  Certification Goal</h2>
-<p>I am preparing for the <strong>AWS Certified Cloud Practitioner certification</strong>, which validates foundational knowledge of AWS Cloud services and concepts.</p>
+---
 
-<hr>
+## Practical Cloud Projects
 
-<h2>  Repository Content</h2>
-<p>This repository documents my learning journey and includes:</p>
-<ul>
-  <li>Lab exercises</li>
-  <li>Cloud architecture notes</li>
-  <li>AWS service documentation</li>
-  <li>Practice projects</li>
-  <li>Troubleshooting examples</li>
-</ul>
+### Static Website on AWS S3
+- Deployed a static website using Amazon S3  
+- Configured access policies and permissions  
+- Implemented versioning and lifecycle rules  
 
-<hr>
+### 3D Cloud Architecture Concept Project
+- Designed a cloud solution architecture visualization  
+- Focused on scalability, security, and modular design  
+- Applied AWS best practices for real-world scenarios  
 
-<h2>  Open to Opportunities</h2>
-<p>I am actively building my cloud skills and would be excited to connect with professionals and recruiters interested in:</p>
-<ul>
-  <li>Cloud Support roles</li>
-  <li>Junior Cloud Engineer roles</li>
-  <li>IT Support positions in cloud environments</li>
-</ul>
+### EC2 Web Server Deployment
+- Configured EC2 instance and security groups  
+- Automated setup using user-data scripts  
+- Implemented monitoring with CloudWatch  
 
-<hr>
+### Automated Backup Solution (Python + AWS CLI)
+- Built automation script for uploading files to S3  
+- Implemented logging for tracking success and failure  
+- Integrated notification system using SNS  
 
-<h2>  Connect With Me</h2>
-<p>Feel free to connect or reach out.</p>
+---
 
-<p>  Thank you for visiting my cloud learning journey!</p>
+## How My Experience Adds Value in Cloud Roles
 
-</body>
-</html>
+My background provides a strong business-oriented perspective that complements cloud technologies:
+
+- Over 20 years of experience in sales leadership and client-facing roles  
+- Strong understanding of customer needs and business value creation  
+- Entrepreneurial experience in building and managing business operations  
+- Ability to connect technical solutions with business objectives  
+- Experience in CRM, marketing, and brand strategy, relevant for digital transformation environments  
+
+This combination allows me to bridge the gap between technical teams and business stakeholders and translate cloud capabilities into measurable business outcomes.
+
+---
+
+## Career Direction
+I am actively transitioning into cloud business and solution-oriented roles, including:
+
+- Cloud Solutions Consultant (Junior / Associate)  
+- Technical Account Manager (TAM)  
+- Cloud Customer Success Manager  
+- Cloud / IT Business Analyst  
+- CRM / Salesforce Consultant  
+- Solution Consultant in cloud and SaaS environments  
+
+---
+
+## Summary
+
+The AWS re/Start program has strengthened my understanding of modern cloud technologies, while my professional background ensures a business-driven and customer-focused approach.
+
+My goal is to work in roles where cloud technology is connected to business strategy, customer success, and digital transformation.
