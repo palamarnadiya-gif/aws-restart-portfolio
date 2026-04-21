@@ -32,8 +32,11 @@ During the program, I gained hands-on and foundational knowledge across core AWS
 - Introduction to container-based concepts  
 
 ### AWS Database Services
-- Overview of RDS and DynamoDB  
-- Basic data modeling and scalability considerations  
+- RDS (relational databases)
+- DynamoDB (NoSQL basics)
+- Data modeling fundamentals
+- Data migration concepts and tools
+- Event-driven integration using SNS, SQS, SES, and EventBridge  
 
 ### AWS Networking Services
 - VPC architecture, subnets, and routing  
@@ -51,7 +54,9 @@ During the program, I gained hands-on and foundational knowledge across core AWS
 
 ### Automation & Deployment Concepts
 - Introduction to automation and repeatable deployments  
-- Basic scripting and infrastructure concepts  
+- Basic scripting (Python + AWS CLI)
+- Infrastructure automation concepts
+- Linux fundamentals for cloud environments
 
 ### AWS Machine Learning and Generative AI (Introduction)
 - Overview of AWS AI/ML services  
